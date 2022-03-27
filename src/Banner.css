@@ -1,0 +1,58 @@
+.banner {
+    color: white;
+    object-fit: contain;
+    height: 448px;
+}
+
+.banner__contents {
+    margin-left: 30px;
+    padding-top: 140px;
+    height: 190px;
+}
+
+.banner__title {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: .3rem;
+}
+
+.banner__description {
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    width: 360px;
+    max-height: 360px;
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px; /* fallback */
+    -webkit-line-clamp: 7; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.banner__button {
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: .5rem 2rem;
+    margin-right: 1rem;
+    background-color: rgba(51,51,51 ,0.8);
+    transition: all 0.4s;
+}
+
+.banner__button:hover {
+    color: #000;
+    background-color: #e6e6e6;
+}
+
+.banner-fadeBottom {
+    height: 7.4rem;
+    background-image: linear-gradient(
+        180deg,transparent,rgba(37,37,37,0.61),#111
+    );
+}
