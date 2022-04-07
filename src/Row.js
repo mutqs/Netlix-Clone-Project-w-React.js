@@ -17,7 +17,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
             const request = await axios.get(fetchUrl)
             setMovies(request.data.results)
             // console.log(request.data.results);
-            // console.table(request.data.results)
+            console.table(request.data.results)
         }
         fetchData()
     }, [fetchUrl]) //componentDidUpdate , fetch url değişince çalış.
